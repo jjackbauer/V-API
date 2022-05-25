@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VolvoApiTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

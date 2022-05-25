@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolvoApi", "VolvoApi\VolvoApi.csproj", "{A4B3140E-0889-4172-8A38-5F478AC31022}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C23D5258-51F9-4292-BE9D-0F5A96D14089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolvoApiTest", "..\VolvoApiTest\VolvoApiTest.csproj", "{EC877748-D96B-4B8F-8E47-19D9209A01E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4B3140E-0889-4172-8A38-5F478AC31022} = {A4B3140E-0889-4172-8A38-5F478AC31022}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4B3140E-0889-4172-8A38-5F478AC31022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B3140E-0889-4172-8A38-5F478AC31022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B3140E-0889-4172-8A38-5F478AC31022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B3140E-0889-4172-8A38-5F478AC31022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23D5258-51F9-4292-BE9D-0F5A96D14089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23D5258-51F9-4292-BE9D-0F5A96D14089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23D5258-51F9-4292-BE9D-0F5A96D14089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23D5258-51F9-4292-BE9D-0F5A96D14089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC877748-D96B-4B8F-8E47-19D9209A01E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC877748-D96B-4B8F-8E47-19D9209A01E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC877748-D96B-4B8F-8E47-19D9209A01E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC877748-D96B-4B8F-8E47-19D9209A01E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {116BC978-708F-4853-86E5-ABB07D91B5FE}
+	EndGlobalSection
+EndGlobal

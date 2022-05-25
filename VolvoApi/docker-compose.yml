@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  volvoapi:
+    build:
+      context: ./VolvoApi/
+      dockerfile: Dockerfile
+    ports:
+    - 9009:80
+    depends_on:
+      - postgresdb
+  postgresdb:
+    container_name: postgresdb
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: PASSWORD
+  adminer:
+    container_name: adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
