@@ -26,4 +26,4 @@ b5f91785bf07   volvoapi_volvoapi   "dotnet VolvoApi.dll"    7 minutes ago   Up 7
 - The API Endpoints can be tested in this interface
 
 - To Run the tests, open in the same folder ```VolvoApi.sln```
-- In Visual Studio, run the integration tests
+- In Visual Studio, run the integration tests (The system containers must be running to the integration tests work)
